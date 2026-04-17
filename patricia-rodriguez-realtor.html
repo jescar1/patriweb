@@ -803,10 +803,10 @@ function handleSubmit(btn){
     return;
   }
 
-  var mensaje = 'Hola Patricia! Completo el formulario de tu sitio web:%0A%0A'
-              + 'Nombre: '    + encodeURIComponent(nombre)   + '%0A'
+  var mensaje = 'Hello Patricia! I filled out the form:%0A%0A'
+              + 'Name: '    + encodeURIComponent(nombre)   + '%0A'
               + 'Email: '     + encodeURIComponent(email)    + '%0A'
-              + 'Telefono: '  + encodeURIComponent(telefono || 'No ingresado');
+              + 'Phone: '  + encodeURIComponent(telefono || 'No ingresado');
 
   t.textContent = '✓ Redirecting to WhatsApp…';
   btn.style.background = 'var(--green)';
