@@ -1,0 +1,7 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/"
+  to = "/patricia-rodriguez-realtor.html"
+  status = 200
